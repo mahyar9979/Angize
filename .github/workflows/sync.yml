@@ -1,0 +1,31 @@
+name: Daily video discovery
+on:
+  schedule:
+    - cron: "17 3 * * *"   # every day, 03:17 UTC (GitHub may delay scheduled runs)
+  workflow_dispatch: {}      # manual "Run workflow" button
+permissions:
+  contents: write
+concurrency:
+  group: sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Unit tests (mocked API)
+        run: node scripts/test.mjs
+      - name: Discover videos
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: node scripts/sync.mjs
+      - name: Commit updated data
+        if: always()
+        run: |
+          git config user.name "dark-mind-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "data: daily sync $(date -u +%F)" && git pull --rebase && git push)

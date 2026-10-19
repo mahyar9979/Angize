@@ -1,0 +1,293 @@
+{
+  "settings": {
+    "minDurationSec": 15,
+    "maxDurationSec": 300,
+    "searchWindowDays": 45,
+    "maxQueriesPerRun": 30,
+    "resultsPerQuery": 25,
+    "maxVideos": 3000,
+    "recheckAfterDays": 7
+  },
+  "queries": [
+    {
+      "id": "fa-1",
+      "q": "کلیپ انگیزشی کوتاه",
+      "lang": "fa",
+      "category": "growth",
+      "enabled": true
+    },
+    {
+      "id": "fa-2",
+      "q": "کلیپ انگیزشی خفن و تاثیرگذار",
+      "lang": "fa",
+      "category": "growth",
+      "enabled": true
+    },
+    {
+      "id": "fa-3",
+      "q": "انگیزشی سینمایی",
+      "lang": "fa",
+      "category": "dark",
+      "enabled": true
+    },
+    {
+      "id": "fa-4",
+      "q": "انگیزه برای موفقیت",
+      "lang": "fa",
+      "category": "success",
+      "enabled": true
+    },
+    {
+      "id": "fa-5",
+      "q": "نظم شخصی و دیسیپلین",
+      "lang": "fa",
+      "category": "discipline",
+      "enabled": true
+    },
+    {
+      "id": "fa-6",
+      "q": "فلسفه رواقی‌گری به زبان فارسی",
+      "lang": "fa",
+      "category": "stoicism",
+      "enabled": true
+    },
+    {
+      "id": "fa-7",
+      "q": "جملات فلسفی عمیق",
+      "lang": "fa",
+      "category": "philosophy",
+      "enabled": true
+    },
+    {
+      "id": "fa-8",
+      "q": "انگیزشی برای روزهای سخت",
+      "lang": "fa",
+      "category": "resilience",
+      "enabled": true
+    },
+    {
+      "id": "fa-9",
+      "q": "قدرت ذهن و اعتمادبه‌نفس",
+      "lang": "fa",
+      "category": "psychology",
+      "enabled": true
+    },
+    {
+      "id": "fa-10",
+      "q": "کلیپ انگیزشی تاریک",
+      "lang": "fa",
+      "category": "dark",
+      "enabled": true
+    },
+    {
+      "id": "fa-11",
+      "q": "رشد فردی و خودسازی",
+      "lang": "fa",
+      "category": "growth",
+      "enabled": true
+    },
+    {
+      "id": "fa-12",
+      "q": "موفقیت مالی و کارآفرینی",
+      "lang": "fa",
+      "category": "finance",
+      "enabled": true
+    },
+    {
+      "id": "fa-13",
+      "q": "انگیزشی برای شروع دوباره",
+      "lang": "fa",
+      "category": "resilience",
+      "enabled": true
+    },
+    {
+      "id": "fa-14",
+      "q": "سخنرانی انگیزشی فارسی",
+      "lang": "fa",
+      "category": "success",
+      "enabled": true
+    },
+    {
+      "id": "fa-15",
+      "q": "کلیپ انگیزشی بدنسازی",
+      "lang": "fa",
+      "category": "fitness",
+      "enabled": true
+    },
+    {
+      "id": "fa-16",
+      "q": "انگیزشی برای شکست عشقی و عبور از گذشته",
+      "lang": "fa",
+      "category": "resilience",
+      "enabled": true
+    },
+    {
+      "id": "fa-17",
+      "q": "کنترل احساسات و قدرت ذهن",
+      "lang": "fa",
+      "category": "psychology",
+      "enabled": true
+    },
+    {
+      "id": "fa-18",
+      "q": "انگیزشی برای افراد تنها",
+      "lang": "fa",
+      "category": "resilience",
+      "enabled": true
+    },
+    {
+      "id": "fa-19",
+      "q": "فلسفه زندگی و معنای زندگی",
+      "lang": "fa",
+      "category": "philosophy",
+      "enabled": true
+    },
+    {
+      "id": "fa-20",
+      "q": "انگیزشی برای ساختن آینده",
+      "lang": "fa",
+      "category": "success",
+      "enabled": true
+    },
+    {
+      "id": "en-1",
+      "q": "dark motivation",
+      "lang": "en",
+      "category": "dark",
+      "enabled": true
+    },
+    {
+      "id": "en-2",
+      "q": "cinematic motivational speech",
+      "lang": "en",
+      "category": "dark",
+      "enabled": true
+    },
+    {
+      "id": "en-3",
+      "q": "stoicism motivation",
+      "lang": "en",
+      "category": "stoicism",
+      "enabled": true
+    },
+    {
+      "id": "en-4",
+      "q": "discipline over motivation",
+      "lang": "en",
+      "category": "discipline",
+      "enabled": true
+    },
+    {
+      "id": "en-5",
+      "q": "mental toughness",
+      "lang": "en",
+      "category": "discipline",
+      "enabled": true
+    },
+    {
+      "id": "en-6",
+      "q": "self improvement",
+      "lang": "en",
+      "category": "growth",
+      "enabled": true
+    },
+    {
+      "id": "en-7",
+      "q": "short motivational speech",
+      "lang": "en",
+      "category": "growth",
+      "enabled": true
+    },
+    {
+      "id": "en-8",
+      "q": "deep philosophical motivation",
+      "lang": "en",
+      "category": "philosophy",
+      "enabled": true
+    },
+    {
+      "id": "en-9",
+      "q": "emotional resilience",
+      "lang": "en",
+      "category": "resilience",
+      "enabled": true
+    },
+    {
+      "id": "en-10",
+      "q": "no excuses motivation",
+      "lang": "en",
+      "category": "discipline",
+      "enabled": true
+    },
+    {
+      "id": "en-11",
+      "q": "overcoming adversity",
+      "lang": "en",
+      "category": "resilience",
+      "enabled": true
+    },
+    {
+      "id": "en-12",
+      "q": "psychology and human behavior",
+      "lang": "en",
+      "category": "psychology",
+      "enabled": true
+    },
+    {
+      "id": "en-13",
+      "q": "dark psychology philosophy",
+      "lang": "en",
+      "category": "psychology",
+      "enabled": true
+    },
+    {
+      "id": "en-14",
+      "q": "Marcus Aurelius motivation",
+      "lang": "en",
+      "category": "stoicism",
+      "enabled": true
+    },
+    {
+      "id": "en-15",
+      "q": "Seneca philosophy",
+      "lang": "en",
+      "category": "stoicism",
+      "enabled": true
+    },
+    {
+      "id": "en-16",
+      "q": "personal growth motivation",
+      "lang": "en",
+      "category": "growth",
+      "enabled": true
+    },
+    {
+      "id": "en-17",
+      "q": "short success motivation",
+      "lang": "en",
+      "category": "success",
+      "enabled": true
+    },
+    {
+      "id": "en-18",
+      "q": "motivational speech for difficult times",
+      "lang": "en",
+      "category": "resilience",
+      "enabled": true
+    },
+    {
+      "id": "en-19",
+      "q": "fitness discipline motivation",
+      "lang": "en",
+      "category": "fitness",
+      "enabled": true
+    },
+    {
+      "id": "en-20",
+      "q": "reinvent yourself motivation",
+      "lang": "en",
+      "category": "growth",
+      "enabled": true
+    }
+  ]
+}
