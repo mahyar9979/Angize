@@ -1,9 +1,16 @@
 {
- "lastRun": "2026-10-26T09:02:47.668Z",
+ "lastRun": "2026-10-27T09:05:46.402Z",
  "lastSuccess": null,
  "queryCursor": 0,
  "quotaUnitsLastRun": 0,
  "runs": [
+  {
+   "at": "2026-10-27T09:05:46.402Z",
+   "ok": false,
+   "errors": [
+    "YOUTUBE_API_KEY is not set"
+   ]
+  },
   {
    "at": "2026-10-26T09:02:47.668Z",
    "ok": false,
